@@ -37,4 +37,5 @@ func loadEnv(){
 
 func migration() {
 	DB.AutoMigrate(&models.User{})
+	DB.AutoMigrate(&models.Film{})
 }
